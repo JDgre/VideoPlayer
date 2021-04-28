@@ -50,23 +50,23 @@ class Innovate:
 
         width = 175
         height = 150
-        self.img = Image.open(r'Tom.png')
+        self.img = Image.open(r'Tom1.png')
         self.img = self.img.resize((width, height), Image.ANTIALIAS)
         self.tom = ImageTk.PhotoImage(self.img)
 
-        self.img2 = Image.open(r'BAT.png')
+        self.img2 = Image.open(r'BAT1.png')
         self.img2 = self.img2.resize((width, height), Image.ANTIALIAS)
         self.bat = ImageTk.PhotoImage(self.img2)
 
-        self.img3 = Image.open(r'casa.png')
+        self.img3 = Image.open(r'casa1.png')
         self.img3 = self.img3.resize((width, height), Image.ANTIALIAS)
         self.casa = ImageTk.PhotoImage(self.img3)
 
-        self.img4 = Image.open(r'som.png')
+        self.img4 = Image.open(r'som1.png')
         self.img4 = self.img4.resize((width, height), Image.ANTIALIAS)
         self.som = ImageTk.PhotoImage(self.img4)
 
-        self.img5 = Image.open(r'gww.png')
+        self.img5 = Image.open(r'gww1.png')
         self.img5 = self.img5.resize((width, height), Image.ANTIALIAS)
         self.gww = ImageTk.PhotoImage(self.img5)
 
